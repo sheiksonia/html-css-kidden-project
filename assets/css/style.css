@@ -1,0 +1,886 @@
+/* common code start*/
+body:{
+	margin:0px;
+}
+.container{
+	width:90%;
+	margin:0px auto;
+	
+}
+ul{
+	margin:0px;
+	padding:0px;
+}
+ul li{
+	list-style:none;
+}
+a{
+	text-decoration:none;
+	display:inline-block;
+}
+html {
+  scroll-behavior: smooth;
+}
+/* utility code start*/
+.d-flex{
+	display:flex;
+}
+/* utility code end*/
+
+/* common code end*/
+/* nav section start*/
+#navbar-section{
+	background:#fff;
+	position: sticky;
+	top:0px;
+	z-index:99999;
+}
+#navbar-section .navbar{
+	flex-direction:row;
+	justify-content:space-between;
+	
+}
+
+#navbar-section .nav-icon{
+
+	width:5%;
+	
+}
+#navbar-section .nav-icon a .fa-user{
+	font-size: 50px;
+	text-align:center;
+	color:black;
+	
+	
+	
+}
+#navbar-section .nav-brand{
+	color:#40B2C4;
+	line-height:75px;
+	font-size:50px;
+	font-weight:700;
+	
+	width:20%;
+	font-family: "Nunito Sans", sans-serif;
+}
+#navbar-section .navbar-nav{
+	
+	width:60%;
+	flex-direction:row;
+	justify-content:center;
+	
+	
+}
+#navbar-section .navbar-nav li a.active{
+	color: red;	
+}
+#navbar-section .navbar-nav a{
+	color:#060606;
+	font-size:16px;
+	font-weight:700;
+	line-height:24px;
+	 font-family: "Roboto", sans-serif;
+	padding:15px 0px 0px 10px;
+	margin:0px 20px;
+}
+#navbar-section .navbar-nav a:hover{
+	color:#40B2C4;
+}
+#navbar-section .join{
+	
+}
+ #navbar-section .join a{
+	color: #fff;
+	font-size: 18px;
+	font-weight: 700;
+	font-family: "Segoe UI", sans-serif;
+	background: #138496;
+	padding: 10px 30px;
+	margin:10px;
+	border-radius: 20px;	
+}
+
+/* nav section end*/
+
+/* header section start*/
+#header-section{
+	background:#17A2B8;
+	padding:80px 0px;
+}
+#header-section .header-content{
+	
+	width:100%;
+	margin-top:200px;
+}
+#header-section .header-content a{
+	color: #fff;
+	font-size: 18px;
+	font-weight: 700;
+	font-family: "Segoe UI", sans-serif;
+	background: #001D29;
+	padding: 10px 30px;
+	margin:10px;
+	border-radius: 20px;
+	
+}
+#header-section .header-content a:hover{
+	background:red;
+	
+	
+}
+.header-content h2{
+	color:#fff;
+	font-size:72px;
+	font-weight:700;
+	line-height:86.4px;
+	margin:0px;
+	font-family: "Handlee", cursive;
+}
+.header-content h3{
+	color:#fff;
+	font-size:24px;
+	font-weight:700;
+	line-height:28.8px;
+	margin:0px 0px;
+	font-family: "Handlee", cursive;
+}
+
+#header-section .header-content p{
+	color:#fff;
+	font-size:16px;
+	font-weight:400;
+	line-height:24px;
+	margin:40px 0px;
+	max-width:550px;
+	font-family: "Handlee", cursive;
+}
+.header-poster{
+	
+	width:60%;
+	align-items:center;
+}
+
+/* header section end*/
+
+
+/*features section start */
+#features-section{
+	padding:80px 0px;
+}
+#features-section section{
+	flex-wrap:wrap;
+}
+#features-section .card{
+	flex: 1 1 20%;
+	padding:28px;
+	margin:0px 20px 40px 20px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	border-radius:20px;
+}
+
+#features-section .card-content h4{
+	color:#00394F;
+	font-size:24px;
+	font-weight:500;
+	line-height:28.8px;
+	margin:0px 0px;
+	font-family: "Handlee", cursive;
+}
+#features-section .card-content p{
+	color:#66666B;
+	font-size:18px;
+	font-weight:300;
+	line-height:24px;
+	margin:0px 0px;
+	font-family: "Roboto", sans-serif;
+}
+#features-section .card-icon{
+	width:10%;
+	margin-right:10px;
+}
+#features-section .card-icon i{
+	color:#51A7BE;
+	font-size:40px;
+	transition:.2s linear;
+}
+#features-section .card-content{
+	width:90%;	
+}
+
+#features-section .card-icon p{
+	color:#060606;
+	font-size:16px;
+	font-weight:400;
+	line-height:1.5;
+	font-family: "Segoe UI", sans-serif;
+	margin:0px 0px 0px 0px;
+	
+}
+/*features section end */
+/*about section start */
+#about-section{
+	padding:60px;
+	
+	
+}
+#about-section .about-poster{
+	
+	width:50%;
+}
+#about-section .about-content{
+	
+	width:50%;
+}
+#about-section .about-content{
+	
+	margin-top:50px;
+	width:50%;
+}
+#about-section .about-right{
+	 flex-direction: column;
+}
+#about-section .about-poster img{
+	
+	margin-top:40px;
+	margin-bottom:40px;
+	
+}
+#about-section .about-content h4{
+	color:#rgb(23, 162, 184);
+	font-size:16px;
+	font-weight:400;
+	line-height:24px;
+	text-transform:uppercase;
+	margin:20px;
+	font-family: "Nunito", sans-serif;
+	
+	
+}
+#about-section .about-content h2{
+	color:#rgb(0, 57, 79);
+	font-size:40px;
+	font-weight:700;
+	line-height:48px;
+	text-transform:uppercase;
+	margin:20px;
+	font-family: "Handlee", cursive;
+	
+	
+}
+#about-section .about-content p{
+	color:#rgb(102, 102, 102);
+	font-size:16px;
+	font-weight:400;
+	line-height:24px;
+	margin:20px;
+	font-family: "Nunito", sans-serif;
+	
+	
+}
+#about-section .about-right{
+	margin:25px;
+	
+	
+}
+#about-section .about-right ul li i{
+	color:#138496;
+	margin: 0px -9px;
+}
+#about-section .about-right ul li a{
+	color:#rgb(102, 102, 102);
+	font-size:16px;
+	font-weight:400;
+	line-height:24px;
+	padding:5px;
+	font-family: "Nunito", sans-serif;	
+}
+#about-section .about-left{
+	margin:20px 30px;
+	
+	
+}
+#about-section .about-left img{
+	border:1px solid #fff;
+	border-radius:5px;
+	
+	
+}
+#about-section .button {
+		
+}
+#about-section .button a{
+	color: #fff;
+	font-size: 18px;
+	font-weight: 700;
+	font-family: "Segoe UI", sans-serif;
+	background: #138496;
+	padding: 10px 30px;
+	
+	margin:10px;
+	border-radius: 20px;	
+}
+/*about section end */
+/*popular section start */
+#popular-section{
+	width:100%;
+	height:900px;
+	padding:90px;
+	
+}
+#popular-section .popular-poster{
+	margin-left:0px;
+}
+#popular-section .popular-head h4{
+	color:#138496;
+	font-size:16px;
+	font-weight:400;
+	line-height:24px;
+	text-transform:uppercase;
+	text-align:center;
+	font-family: "Nunito", sans-serif;
+}
+#popular-section .popular-head h2{
+	color:#00394F;
+	font-size:40px;
+	font-weight:700;
+	line-height:48px;
+	text-transform:uppercase;
+	text-align:center;
+	font-family: "Handlee", cursive;
+}
+#popular-section .drawing-class,.language-learning,.Basic-science {
+	border:15px solid #fff;
+	width:25%;
+	height:300px;
+	margin-left:30px;
+	
+	
+}
+#popular-section .drawing-class img,.language-learning img,.Basic-science img {
+	
+	border-radius:5px;
+	width:400px;
+	height:300px;
+	margin-right:20px;
+
+	
+}
+#popular-section .drawing-class h3,.language-learning h3,.Basic-science h3 {
+	color:#rgb(0, 57, 79);
+	font-size:24px;
+	font-weight:700;
+	line-height:28.8px;
+	text-transform:capitalize;
+	text-align:center;
+	font-family: "Handlee", cursive;
+	
+}
+#popular-section .drawing-class p,.language-learning p,.Basic-science p {
+	color:#66667E;
+	font-size:16px;
+	font-weight:400;
+	line-height:24px;
+	
+	cursor:pointer;
+	text-align:center;
+	font-family: "Nunito", sans-serif;
+	
+}
+#popular-section .calcul{
+	margin:0px 30px;
+}
+#popular-section .calcul .age-kids p{
+	margin-right:30px;
+}
+#popular-section .join-now  {
+	margin:0px 20px;
+}
+#popular-section .join-now a {
+	color: #fff;
+	font-size: 18px;
+	font-weight: 700;
+	font-family: "Segoe UI", sans-serif;
+	background: #138496;
+	padding: 10px 30px;
+	margin:10px;
+	border-radius: 20px;
+}
+#popular-section .drawing-class img{
+	margin-right:10px;
+}
+/* popular section end */
+
+/*book seat start*/
+#book-seat{
+	
+	width:100%;
+	height:800px;
+	
+}	
+#book-seat .book-content{
+	
+	width:60%;
+	height:800px;
+	margin:100px;
+	
+	
+}	
+	
+#book-seat .book-form{
+	
+	width:40%;
+	height:800px;
+	margin-top:50px;	
+}
+#book-seat .book{
+	flex-direction:column;	
+}
+#book-seat .book-content h4{
+	color: #17A2B8;
+	font-size: 16px;
+	font-weight: 400;
+	text-transform:uppercase;
+	font-family: "Nunito", sans-serif;
+		
+}
+#book-seat .book-content h2{
+	color: #00394F;
+	font-size: 40px;
+	font-weight: 700;
+	line-height:48px;
+	text-transform:uppercase;
+	font-family: "Handlee", cursive;
+		
+}
+#book-seat .book-content p{
+	color: #666666;
+	font-size: 16px;
+	font-weight: 400;
+	line-height:24px;
+	font-family: "Nunito", sans-serif;
+		
+}
+#book-seat ul li i{
+	color:#28A745;
+	margin: 0px -9px;
+}
+#book-seat ul li a{
+	color:#666666;
+	font-size:16px;
+	font-weight:400;
+	line-height:24px;
+	padding:5px;
+	font-family: "Nunito", sans-serif;	
+}
+#book-seat .book-button{
+	margin:0px 20px;
+}
+#book-seat .book-button a{
+	color: #fff;
+	font-size: 18px;
+	font-weight: 700;
+	font-family: "Segoe UI", sans-serif;
+	background: #138496;
+	padding: 10px 30px;
+	margin:10px;
+	border-radius: 20px;
+}
+
+#book-seat .book-form .form-top{
+	width:80%;
+	height:100px;
+	background:#00394F;
+}
+#book-seat .book-form .form-bottom{
+	width:80%;
+	height:500px;
+	background:#17A2B8;
+}
+#book-seat .form-top h2{
+		color: #fff;
+	font-size: 40px;
+	font-weight: 700;
+	line-height:48px;
+	text-align:center;
+	font-family: "Handlee", cursive;
+}
+#book-seat .form-bottom input {
+	padding: 20px 57px;
+	margin: 20px;
+	width:60%;
+	height:10px;
+	border:1px solid #fff;
+	border-radius:5px;
+	font-family: "Nunito", sans-serif;
+	
+}
+#book-seat .form-bottom label{
+	font-family: "Nunito", sans-serif;
+	font-size: 1rem;
+	padding-right: 10px;
+}
+#book-seat .form-bottom select{
+
+	font-size: 0.9rem;
+	padding: 17px 130px;
+	margin: 16px
+}
+#book-seat .form-bottom button{
+	color: #fff;
+	font-size: 16px;
+	font-weight: 400;
+	font-family: "Nunito", sans-serif;
+	background: #00394F;
+	padding: 10px 80px;
+	margin:10px 120px;
+	border-radius: 20px;
+	transition:5s;
+}
+#book-seat .form-bottom button:hover{
+	color:#001D29;
+}
+/* teacher section start*/
+#teacher{
+	
+	width:100%;
+	padding:70px
+}
+#teacher .img {
+	margin:20px;
+	padding:20px;
+	position:relative;
+	
+}
+#teacher .img img .image {
+	display: block;
+	width: 100%;
+	height: auto;
+	
+}
+#teacher .img .overlay {
+			position: absolute;
+		  top: 0;
+		  bottom: 0;
+		  left: 0;
+		  right: 0;
+		  height: 80%;
+		  width: 100%;
+		  opacity: 0;
+		  transition: .3s ease;
+		  background-color:#3DAFC0;
+		  border-radius:50%;
+	
+}
+#teacher .img:hover .overlay {
+		opacity: 0.5;
+		
+}
+#teacher .img a.icon {
+  color: white;
+  font-size:40px;
+  position: absolute;
+  top: 50%;
+  left: 15%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+ 
+}
+#teacher .img img{
+	border-radius:50%;
+	 height: 80%;
+	width: 100%;
+	
+	
+}
+#teacher i.fa-twitter{
+	color:#fff;
+	border:1px solid #fff;
+	border-radius:50%;
+	transition:.5s
+}
+#teacher i.fa-twitter:hover {
+  color: #000;
+  background:#fff;
+  padding:10px;
+ 
+}
+#teacher .img h3 {
+	
+}
+#teacher .teacher-head h4{
+	color:#138496;
+	font-size:16px;
+	font-weight:400;
+	line-height:24px;
+	text-transform:uppercase;
+	text-align:center;
+	font-family: "Nunito", sans-serif;
+}
+#teacher .teacher-head h2{
+	color:#00394F;
+	font-size:40px;
+	font-weight:700;
+	line-height:48px;
+	text-transform:uppercase;
+	text-align:center;
+	font-family: "Handlee", cursive;
+}
+#teacher .poster .name h5{
+	color:#00394F;
+	font-size:24px;
+	font-weight:700;
+	line-height:28.8px;
+	text-align:center;
+	font-family: "Handlee", cursive;
+}
+#teacher .poster .name h3{
+	color:#666670;
+	font-size:16px;
+	font-weight:400;
+	line-height:24px;
+	font-style:italic;
+	text-align:center;
+	font-family: "Nunito", sans-serif;
+}
+#teacher .poster .name {
+	
+}
+/* teacher section end*/
+/* latest-blog section start*/
+#latest-blog {
+	width:100%;
+	height:800px;
+}
+#latest-blog .latest-blog-head h4{
+	color:#138496;
+	font-size:16px;
+	font-weight:400;
+	line-height:24px;
+	text-transform:uppercase;
+	text-align:center;
+	font-family: "Nunito", sans-serif;
+}
+#latest-blog .latest-blog-head h2{
+	color:#00394F;
+	font-size:40px;
+	font-weight:700;
+	line-height:48px;
+	text-transform:uppercase;
+	text-align:center;
+	font-family: "Handlee", cursive;
+}
+#latest-blog .latest-blog-class p{
+	color:#66667E;
+	font-size:16px;
+	font-weight:400;
+	line-height:24px;
+	cursor:pointer;
+	text-align:center;
+	font-family: "Nunito", sans-serif;
+}
+#latest-blog .latest-blog-poster img{
+	border-radius:5px;
+	width:400px;
+	height:300px;
+	margin-right:20px;
+}
+#latest-blog .latest-blog-poster ul li{
+	margin:0px 10px;
+}
+#latest-blog .latest-blog-poster .read-more a{
+	color: #fff;
+	font-size: 18px;
+	font-weight: 700;
+	font-family: "Segoe UI", sans-serif;
+	background: #138496;
+	padding: 10px 30px;
+	margin:10px;
+	border-radius: 20px;
+}
+/* latest-blog section end*/
+ /* footer section start */
+#footer-section{
+	background: #A9A9A9;
+	padding: 80px 0px;
+}
+#footer-section h1{
+	color:#rgb(6, 6, 6);
+	font-size:45px;
+	font-weight:700;
+	line-height:55px;
+	text-align:center;
+	font-family: "Segoe UI", sans-serif;
+}
+#footer-section .input-section{
+	justify-content:center;
+	
+}
+#footer-section .input-section input{
+	width:40%;
+	background:#fff;
+	padding:22px 20px;
+	font-size:17px;
+	border-radius:30px 0 0 30px;
+	border:2px solid #C2DBFE;	
+}
+
+#footer-section .input-section a{
+	background:#F7783C;
+	border-radius:0 30px 30px 0px;
+	padding:25px 0px 0px 0px;
+	transition:.2s;
+	display:inline-block;
+		
+}
+#footer-section .input-section a:hover{
+	background:#0ABF53;
+			
+}
+#footer-section .footer-about{
+	width:25%;
+	padding:20px;
+	
+}
+#footer-section .footer-contact-info{
+	width:25%;
+	padding:20px;
+	
+}
+#footer-section .footer-contact-info li i{
+	color:black;
+	font-size:10px;
+	
+}
+#footer-section .footer-quick-link{
+	width:25%;
+	padding:20px;
+	
+}
+#footer-section .footer-quick-link li i {
+	color:black;
+	font-size:10px;	
+}
+#footer-section .footer-help-support{
+	width:25%;
+	padding:20px;
+	
+}
+#footer-section .footer-help-support li i{
+	color:black;
+	font-size:10px;	
+	
+}
+#footer-section .footer-about h3 {
+	color:#060606;
+	font-size:18px;
+	font-weight:700;
+	 font-family: "Open Sans", sans-serif;
+	text-transform:uppercase;
+	text-align:start;			
+}
+#footer-section .footer-about p{
+	color:#060606;
+	font-size:16px;
+	font-weight:400;
+	font-family: "Open Sans",sans-serif;
+	text-align:start;
+	
+}
+#footer-section .social-icon .fa-facebook,
+.fa-linkedin,.fa-twitter,.fa-google,.fa-instagram{
+	background:#F7BAC5;
+	padding:10px;
+	border-radius:50%;
+	transition:.5s;
+}
+#footer-section .social-icon:hover .fa-facebook:hover,
+.fa-linkedin:hover,.fa-twitter:hover,.fa-google:hover,.fa-instagram:hover{
+	background:#D78C43;
+}
+#footer-section .footer-contact-info {
+	  flex-direction: column;
+}
+#footer-section .footer-contact-info h3{
+	color:#rgb(6, 6, 6);
+	font size:18px;
+	font-weight:700;
+	line-height:20px;
+	font-family: "Open Sans", sans-serif;
+}
+#footer-section .footer-contact-info p{
+	color:#rgb(6, 6, 6);
+	font size:14px;
+	font-weight:400;
+	line-height:24px;
+	font-family: "Open Sans", sans-serif;
+}
+#footer-section .footer-contact-info a{
+	color:#060606;
+	font size:14px;
+	font-weight:400;
+	line-height:24px;
+	padding:5px;
+	font-family: "Open Sans", sans-serif;
+}
+#footer-section .footer-quick-link{
+	
+  flex-direction: column;
+}
+#footer-section .footer-quick-link h3{
+	color:#060606;
+	font size:18px;
+	font-weight:700;
+	line-height:20px;
+	font-family: "Open Sans", sans-serif;
+}
+#footer-section .footer-quick-link  li a{
+	color: #060606;
+	font-size: 14px;
+	font-weight: 400;
+	font-family: "Segoe UI", sans-serif;
+	
+	
+}
+#footer-section .footer-help-support{
+  flex-direction: column;
+	
+	
+}
+#footer-section .footer-help-support h3{
+	color:#060606;
+	font size:18px;
+	font-weight:700;
+	line-height:20px;
+	font-family: "Open Sans", sans-serif;
+	
+	
+}
+#footer-section .footer-help-support  li a{
+	color: #060606;
+	font-size: 14px;
+	font-weight: 400;
+	font-family: "Segoe UI", sans-serif;
+	
+	
+}
+#footer-section .copy-write{
+	color: #060606;
+	font-size: 15px;
+	font-weight: 400;
+	line-height:20px;
+	font-family: "Open Sans", sans-serif;
+	justify-content:center;
+	
+	
+}
+#footer-section .copy-write a{
+	margin:20px;
+	
+	
+}
+#footer-section .copy-write {
+	margin:50px;
+	
+	
+}
+/* footer section end */
